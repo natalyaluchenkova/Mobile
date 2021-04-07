@@ -64,7 +64,7 @@ input{
 }
 .carousel-control-prev-icon{
     background-image: url(../img/_.png);
-    /*margin-top: 300px;*/
+    margin-top: -30px;
     width: 30px;
     height: 60px;    
 }
@@ -72,7 +72,7 @@ input{
     background-image: url(../img/_2.png);
     width: 30px;
     height: 60px;
-    /*margin-top: 300px;*/
+    margin-top: -30px;
 }
 .carousel-control-prev{
 	margin-left: -20%;
@@ -85,23 +85,29 @@ input{
 	border-width: 0;
 }
 .carousel-caption{
-	position: relative;
-	left: 0;
+	top: 0;
+	left: 40%;
+	right: 0;
 	font-family: 'Stylus BT';
 	font-size: 28px;
-	text-align: left;		
+	text-align: left;
+	margin-left: 15%;
+	padding-top: 7%;	
 }
 .carousel_slide{
 	display: flex;
 	/*justify-content: center;*/
 	align-items: center;
 }
-.carousel_img{	
+
+/*.carousel_img{	
 	width: 54%;
-}
+}*/
 .carousel_text{
-	width: 46%;
-	margin-bottom: 35px;
+	/*width: 46%;*/
+	/*margin-bottom: 35px;*/
+	/*margin-left: 15%;*/
+
 }
 .carousel_text p{
 	margin-bottom: 36px;
