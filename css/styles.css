@@ -1,6 +1,3 @@
-.carousel{
-	height: 400px;
-}
 .header{
 	align-items: flex-end;
 	/*border: 1px solid black;*/
@@ -23,7 +20,9 @@ input{
 	display: none;
 }
 .nav_lines{
-	display: flex;		
+	display: flex;	
+	/*justify-content: flex-end;*/
+		
 	display: none;
 }
 .line_wrapper{
@@ -124,9 +123,6 @@ input{
 	font-size: 44px;	
 }
 
-
-
-
 .color_circles{
 	padding-top: 64px;
 	justify-content: center;
@@ -225,9 +221,4 @@ input{
 	text-align: center;
 	margin-bottom: 30px;
 }
-.container-fluid{
-	padding-left: 0;
-	padding-right: 0;
-}
-
 
