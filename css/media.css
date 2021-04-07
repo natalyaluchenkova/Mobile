@@ -79,16 +79,8 @@
 @media (min-width: 576px) {/* CSS для: 576px <= ширины <= 767px */}
 
 /* md-устройства (больше или равно 768px) */
-@media (min-width: 768px) {/* CSS для: 768px <= ширины <= 991px */}
-
-/* lg-устройства (больше или равно 992px) */
-@media (min-width: 992px) {/* CSS для: 992px <= ширины <= 1119px */}
-
-/* xl-устройства (больше или равно 1200px) */
-@media (min-width: 1200px) {/* CSS для: ширины >= 1200px */}
-
-@media (min-width: 576px) and (max-width: 992px){
-	.logo a{
+@media (min-width: 768px) and (max-width: 992px){
+.logo a{
 		font-size: 70px;		
 	}
 	.nav{
@@ -104,6 +96,15 @@
 	input:checked + label > .nav{
 		display: block;
 	}
+
+	.carousel-control-prev{
+	margin-left: -10%;
+	
+	}
+	.carousel-control-next{
+	margin-right: -10%;
+	
+	}
 	.color_circles{
 		padding-top: 30px;	
 	}
@@ -116,7 +117,13 @@
 	.blue_circle div:first-child, .red_circle div:first-child, .orange_circle div:first-child {
         align-items: center;        
         justify-content: center;
-	}	
+        width: 210px;
+		height: 210px;
+		flex: 0 0 215px;		
+	}
+
+
+
 	.blue_circle div:last-child, .red_circle div:last-child, .orange_circle div:last-child {
         align-items: flex-start;
         padding-left: 30px;
@@ -127,10 +134,8 @@
 		margin: 0;
 		text-align: left;
 		font-size: 30px;
-	}
-	.blue_circle a, .red_circle a, .orange_circle a{		
-		/*align-items: flex-start;*/
-	}
+		margin-bottom: 40px;
+	}	
 	.color_circles a{
 		font-size: 45px;		
 	}
@@ -158,5 +163,11 @@
 	.footer{	
 		font-size: 30px;	
 		margin-bottom: 30px;
-	}
-}
+	}/* CSS для: 768px <= ширины <= 991px */}
+
+/* lg-устройства (больше или равно 992px) */
+@media (min-width: 992px) {/* CSS для: 992px <= ширины <= 1119px */}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {/* CSS для: ширины >= 1200px */}
+

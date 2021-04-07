@@ -1,3 +1,7 @@
+.for_gears{
+	padding: 0;
+	margin-left: -5px;
+}
 .header{
 	align-items: flex-end;
 	/*border: 1px solid black;*/
@@ -75,12 +79,12 @@ input{
     margin-top: -30px;
 }
 .carousel-control-prev{
-	margin-left: -20%;
+	margin-left: -15%;
 	background-color: rgba(255, 255, 255, 0); 
 	border-width: 0;
 }
 .carousel-control-next{
-	margin-right: -20%;
+	margin-right: -13%;
 	background-color: rgba(255, 255, 255, 0); 
 	border-width: 0;
 }
@@ -127,6 +131,10 @@ input{
 .carousel-caption h5{
 	font-family: 'Stylus BT';
 	font-size: 44px;	
+}
+.gears{
+	background-image: url(../img/gears.png);
+	height: 16px;
 }
 
 .color_circles{
@@ -212,6 +220,9 @@ input{
 	color: #909090;
 	text-align: left;
 	line-height: 2.25;
+}
+.line{
+	padding: 0;
 }
 .grey_line{
 	width: 100%;
