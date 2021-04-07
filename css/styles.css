@@ -1,0 +1,233 @@
+.carousel{
+	height: 400px;
+}
+.header{
+	align-items: flex-end;
+	/*border: 1px solid black;*/
+}
+.logo a{
+	display: flex;
+	align-items: center;
+	font-family: 'Jokerman Regular';
+	font-size: 60px;
+	text-decoration: none;
+	color: #5094f2;
+}
+.logo a img{
+	margin-right: 10px;
+}
+.logo a:hover{	
+	text-decoration: underline;
+}
+input{
+	display: none;
+}
+.nav_lines{
+	display: flex;		
+	display: none;
+}
+.line_wrapper{
+	width: 85px;
+	height: 53px;
+	background-color: #5094f2;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.menu_line{
+	height: 7px;
+	width: 52px;
+	background-color: white;
+	border-radius: 3px;
+	margin: 3px;
+}
+.nav{
+	font-family: 'Jokerman Regular';
+	font-size: 25px;
+	justify-content: flex-end;
+	color: #6c6c6c;
+	align-items: flex-end;
+	padding-bottom: 12px;
+}
+.nav-item a{
+	color: #6c6c6c;	
+}
+.nav-item a:hover{
+	border-bottom: 3px solid #5094f2;
+}
+.phone{	
+	background: white url('../img/bg_header.png') no-repeat center center fixed;
+	background-size: cover;
+	padding: 35px 0 0 20px;
+	height: 480px;
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/_.png);
+    /*margin-top: 300px;*/
+    width: 30px;
+    height: 60px;    
+}
+.carousel-control-next-icon{
+    background-image: url(../img/_2.png);
+    width: 30px;
+    height: 60px;
+    /*margin-top: 300px;*/
+}
+.carousel-control-prev{
+	margin-left: -20%;
+	background-color: rgba(255, 255, 255, 0); 
+	border-width: 0;
+}
+.carousel-control-next{
+	margin-right: -20%;
+	background-color: rgba(255, 255, 255, 0); 
+	border-width: 0;
+}
+.carousel-caption{
+	position: relative;
+	left: 0;
+	font-family: 'Stylus BT';
+	font-size: 28px;
+	text-align: left;		
+}
+.carousel_slide{
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.carousel_img{	
+	width: 54%;
+}
+.carousel_text{
+	width: 46%;
+	margin-bottom: 35px;
+}
+.carousel_text p{
+	margin-bottom: 36px;
+}
+.carousel_text a{
+	font-size: 22.35px;
+	color: white;
+	background-color: #5094f2;
+	padding: 8px 30px 10px 30px;
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;	
+}
+.carousel_text a img{
+	margin-right: 10px;
+}
+.carousel-caption h5{
+	font-family: 'Stylus BT';
+	font-size: 44px;	
+}
+
+
+
+
+.color_circles{
+	padding-top: 64px;
+	justify-content: center;
+}
+.blue_circle, .red_circle, .orange_circle{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.blue_circle div:first-child,
+.red_circle div:first-child,
+.orange_circle div:first-child{
+	display: flex;
+	width: 186px;
+	height: 186px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 190px;
+}
+.blue_circle div:last-child,
+.red_circle div:last-child,
+.orange_circle div:last-child{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.blue_circle div:first-child{
+	background-color: #5094f2;
+	/*padding: 40px 0 0 60px;*/
+}
+.red_circle div:first-child{
+	background-color: #d94748;
+	/*padding: 51px 0 0 46px;*/
+}
+.orange_circle div:first-child{
+	background-color: #ebbb11;
+	/*padding: 46px 0 0 45px;*/
+}
+.color_circles a{
+	font-family: 'Stylus BT';
+	font-size: 28px;
+	color: #5094f2;	
+}
+.color_circles p{
+	color: #909090;
+	font-family: 'Segoe Rpint';
+	font-size: 18px;
+	text-align: center;
+}
+.blue_circle p, .red_circle p, .orange_circle p{
+	margin: 0 45px 0 45px;
+}
+.cart{
+	font-family: 'Jokerman Regular';
+	font-size: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+	color: #4d8ed7;
+	text-shadow: 0px 9px 0px rgba(122, 130, 161, 0.37);
+}
+.cart_img{
+	margin-left: 30px;
+}
+.cart_img, .cart_text{
+	padding-top: 22px;
+}
+.cart_text h4{
+	font-family: 'Stylus BT';
+	font-size: 30px;
+	color: #6f7173;
+	margin-left: 81px;
+	line-height: 1;
+}
+.cart_text p{
+	font-family: 'Stylus BT';
+	font-size: 16px;
+	color: #909090;
+	text-align: left;
+	line-height: 2.25;
+}
+.grey_line{
+	width: 100%;
+	height: 1px;
+	background-color: #e5e5e5;
+	margin: 15px 0 35px 0;
+}
+.footer{
+	text-transform: uppercase;
+	font-family: 'Algerian';
+	font-size: 25px;
+	color: #909090;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+

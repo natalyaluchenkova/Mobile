@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Algerian';
+	src: url('../Fonts/Algerian/Algerian.eot') format('embedded-opentype'),
+		 url('../Fonts/Algerian/Algerian.woff') format('woff'),
+		 url('../Fonts/Algerian/Algerian.woff2') format('woff2'),
+		 url('../Fonts/Algerian/Algerian.otf') format('OpenType'),
+		 url('../Fonts/Algerian/Algerian.svg') format('svg'),
+		 url('../Fonts/Algerian/Algerian.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Jokerman Regular';
+	src: url('../Fonts/Jokerman/Jokerman Regular.eot') format('embedded-opentype'),
+		 url('../Fonts/Jokerman/Jokerman Regular.woff') format('woff'),
+		 url('../Fonts/Jokerman/Jokerman Regular.woff2') format('woff2'),
+		 url('../Fonts/Jokerman/Jokerman Regular.otf') format('OpenType'),
+		 url('../Fonts/Jokerman/Jokerman Regular.svg') format('svg'),
+		 url('../Fonts/Jokerman/Jokerman Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Segoe Rpint';
+	src: url('../Fonts/Segoe Rpint/segoe-print.eot') format('embedded-opentype'),
+		 url('../Fonts/Segoe Rpint/segoe-print.woff') format('woff'),
+		 url('../Fonts/Segoe Rpint/segoe-print.woff2') format('woff2'),
+		 url('../Fonts/Segoe Rpint/segoe-print.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Stylus BT';
+	src: url('../Fonts/Stylus/Stylus BT.eot') format('embedded-opentype'),
+		 url('../Fonts/Stylus/Stylus BT.woff') format('woff'),
+		 url('../Fonts/Stylus/Stylus BT.woff2') format('woff2'),
+		 url('../Fonts/Stylus/Stylus BT.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
