@@ -84,26 +84,44 @@
 		font-size: 70px;		
 	}
 	.nav{
-		flex-direction: column;
+		/*flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: center;*/
 		display: none;
 	}
 	.nav_lines{
 		display: block;
 		margin-bottom: 25px;
 	}
-	input:checked + label > .nav{
-		display: block;
+	.button_on{
+		display: none;
 	}
-
-	.carousel-control-prev{
-	margin-left: -10%;
 	
+	
+	.phone{
+		height: 360px;
+	}
+	.carousel-control-prev{
+		margin-left: -10%;	
 	}
 	.carousel-control-next{
-	margin-right: -10%;
-	
+		margin-right: -10%;	
+	}
+	.d-block{
+		width: 257px;
+	}
+	.carousel-caption{
+		margin-left: 5%;
+		padding-top: 2%;
+	}
+	.carousel-caption h5{
+		font-size: 36px;	
+	}
+	.carousel_text a{
+		font-size: 30px;
+	}
+	.gears{
+		display: none;
 	}
 	.color_circles{
 		padding-top: 30px;	
@@ -117,13 +135,10 @@
 	.blue_circle div:first-child, .red_circle div:first-child, .orange_circle div:first-child {
         align-items: center;        
         justify-content: center;
-        width: 210px;
-		height: 210px;
-		flex: 0 0 215px;		
+        width: 215px;
+		height: 215px;
+		flex: 0 0 220px;		
 	}
-
-
-
 	.blue_circle div:last-child, .red_circle div:last-child, .orange_circle div:last-child {
         align-items: flex-start;
         padding-left: 30px;
@@ -143,7 +158,8 @@
 		font-size: 60px;	
 	}
 	.cart_img{
-		margin-left: 0;		
+		margin-left: 0;
+		width: 485px;	
 	}
 	.blue_cart{
 		text-align: center;

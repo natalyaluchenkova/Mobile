@@ -20,16 +20,15 @@
 .logo a:hover{	
 	text-decoration: underline;
 }
-input{
+#check{
 	display: none;
 }
 .nav_lines{
-	display: flex;	
-	/*justify-content: flex-end;*/
-		
+	display: flex;		
 	display: none;
 }
-.line_wrapper{
+
+.button_off{
 	width: 85px;
 	height: 53px;
 	background-color: #5094f2;
@@ -38,6 +37,38 @@ input{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+}
+.button_on{
+	font-family: 'Jokerman Regular';
+	font-size: 30px;
+	position: absolute;
+	top: 0;
+	right: 100px;
+	z-index: 3;
+	width: 200px;
+	background-color: white;
+}
+.button_on li{
+	text-align: center;
+	border: 2px solid #5094f2;
+	box-sizing: border-box;
+}
+.button_on li:nth-child(2), .button_on li:nth-child(3), 
+.button_on li:nth-child(4){
+	border-top: none;
+}
+.button_on a{
+	color: #6c6c6c;
+}
+.button_on a:hover{
+	font-style: italic;
+}
+input + label > .button_on{
+		display: none;
+}
+input:checked + label > .button_on{
+		display: block;
 }
 .menu_line{
 	height: 7px;
@@ -50,7 +81,7 @@ input{
 	font-family: 'Jokerman Regular';
 	font-size: 25px;
 	justify-content: flex-end;
-	color: #6c6c6c;
+	/*color: #6c6c6c;*/
 	align-items: flex-end;
 	padding-bottom: 12px;
 }
@@ -65,6 +96,9 @@ input{
 	background-size: cover;
 	padding: 35px 0 0 20px;
 	height: 480px;
+}
+.carousel{
+	z-index: 1;
 }
 .carousel-control-prev-icon{
     background-image: url(../img/_.png);
@@ -99,19 +133,8 @@ input{
 	padding-top: 7%;	
 }
 .carousel_slide{
-	display: flex;
-	/*justify-content: center;*/
+	display: flex;	
 	align-items: center;
-}
-
-/*.carousel_img{	
-	width: 54%;
-}*/
-.carousel_text{
-	/*width: 46%;*/
-	/*margin-bottom: 35px;*/
-	/*margin-left: 15%;*/
-
 }
 .carousel_text p{
 	margin-bottom: 36px;
