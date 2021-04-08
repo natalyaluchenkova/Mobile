@@ -1,10 +1,5 @@
-.for_gears{
-	padding: 0;
-	margin-left: -5px;
-}
 .header{
-	align-items: flex-end;
-	/*border: 1px solid black;*/
+	align-items: flex-end;	
 }
 .logo a{
 	display: flex;
@@ -27,7 +22,6 @@
 	display: flex;		
 	display: none;
 }
-
 .button_off{
 	width: 85px;
 	height: 53px;
@@ -48,11 +42,18 @@
 	z-index: 3;
 	width: 200px;
 	background-color: white;
+	border-radius: 7px;
 }
 .button_on li{
 	text-align: center;
-	border: 2px solid #5094f2;
-	box-sizing: border-box;
+	border: 2px solid #5094f2;	
+}
+.button_on li:first-child{
+	border-top-left-radius: 7px;
+}
+.button_on li:nth-child(4){
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 .button_on li:nth-child(2), .button_on li:nth-child(3), 
 .button_on li:nth-child(4){
@@ -61,8 +62,8 @@
 .button_on a{
 	color: #6c6c6c;
 }
-.button_on a:hover{
-	font-style: italic;
+.button_on a:hover{	
+	text-decoration: underline;
 }
 input + label > .button_on{
 		display: none;
@@ -81,7 +82,6 @@ input:checked + label > .button_on{
 	font-family: 'Jokerman Regular';
 	font-size: 25px;
 	justify-content: flex-end;
-	/*color: #6c6c6c;*/
 	align-items: flex-end;
 	padding-bottom: 12px;
 }
@@ -89,7 +89,11 @@ input:checked + label > .button_on{
 	color: #6c6c6c;	
 }
 .nav-item a:hover{
-	border-bottom: 3px solid #5094f2;
+	border-bottom: 3px solid #5094f2;	
+}
+.for_gears{
+	padding: 0;
+	margin-left: -5px;
 }
 .phone{	
 	background: white url('../img/bg_header.png') no-repeat center center fixed;
@@ -159,7 +163,6 @@ input:checked + label > .button_on{
 	background-image: url(../img/gears.png);
 	height: 16px;
 }
-
 .color_circles{
 	padding-top: 64px;
 	justify-content: center;
@@ -191,16 +194,13 @@ input:checked + label > .button_on{
 	align-items: center;
 }
 .blue_circle div:first-child{
-	background-color: #5094f2;
-	/*padding: 40px 0 0 60px;*/
+	background-color: #5094f2;	
 }
 .red_circle div:first-child{
-	background-color: #d94748;
-	/*padding: 51px 0 0 46px;*/
+	background-color: #d94748;	
 }
 .orange_circle div:first-child{
-	background-color: #ebbb11;
-	/*padding: 46px 0 0 45px;*/
+	background-color: #ebbb11;	
 }
 .color_circles a{
 	font-family: 'Stylus BT';
@@ -212,11 +212,12 @@ input:checked + label > .button_on{
 	font-family: 'Segoe Rpint';
 	font-size: 18px;
 	text-align: center;
+	line-height: 1.2;
 }
 .blue_circle p, .red_circle p, .orange_circle p{
 	margin: 0 45px 0 45px;
 }
-.cart{
+.cart a{
 	font-family: 'Jokerman Regular';
 	font-size: 50px;
 	margin-left: 50px;

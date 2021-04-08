@@ -83,10 +83,7 @@
 .logo a{
 		font-size: 70px;		
 	}
-	.nav{
-		/*flex-direction: column;
-		justify-content: center;
-		align-items: center;*/
+	.nav{		
 		display: none;
 	}
 	.nav_lines{
@@ -95,9 +92,7 @@
 	}
 	.button_on{
 		display: none;
-	}
-	
-	
+	}	
 	.phone{
 		height: 360px;
 	}
@@ -132,30 +127,39 @@
 		justify-content: center;	
 		align-items: center;	
 	}
-	.blue_circle div:first-child, .red_circle div:first-child, .orange_circle div:first-child {
-        align-items: center;        
-        justify-content: center;
+	.blue_circle div:first-child, .red_circle div:first-child, .orange_circle div:first-child{
         width: 215px;
 		height: 215px;
 		flex: 0 0 220px;		
-	}
-	.blue_circle div:last-child, .red_circle div:last-child, .orange_circle div:last-child {
+	}	
+	.blue_circle div:last-child, .red_circle div:last-child, .orange_circle div:last-child{
         align-items: flex-start;
         padding-left: 30px;
         justify-content: center;
 	}
-	
+	.orange_circle img, .red_circle img{
+		margin-left: 16.5%;
+	}
+	.blue_circle img{
+		margin-left: 22%;
+	}
 	.blue_circle p, .red_circle p, .orange_circle p{
 		margin: 0;
 		text-align: left;
 		font-size: 30px;
-		margin-bottom: 40px;
+		margin-bottom: 40px;		
 	}	
 	.color_circles a{
-		font-size: 45px;		
+		font-size: 45px;
+		display: flex;
+        align-items: center;        
+        justify-content: center;		
 	}
-	.cart{	
-		font-size: 60px;	
+	.cart{
+		text-align: center;
+	}
+	.cart a{		
+		font-size: 60px;			
 	}
 	.cart_img{
 		margin-left: 0;
